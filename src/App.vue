@@ -65,7 +65,7 @@
 export default {
     data() {
         return {
-            input: "Dune",
+            input: "",
             isDataGet: "",
             data: null,
             gnere1: "",
