@@ -1,0 +1,12 @@
+@import "_normalize.scss";
+@import "_font.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
