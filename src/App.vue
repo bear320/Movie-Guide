@@ -77,7 +77,7 @@ export default {
         async getMovie() {
             if (!this.input) return;
 
-            let apiURL = `http://www.omdbapi.com/?t=${this.input}&apikey=${process.env.VUE_APP_OMDBKEY}`;
+            let apiURL = `https://www.omdbapi.com/?t=${this.input}&apikey=${process.env.VUE_APP_OMDBKEY}`;
 
             await fetch(apiURL)
                 .then((res) => res.json())
