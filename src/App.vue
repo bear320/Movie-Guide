@@ -112,7 +112,8 @@ export default {
 <style lang="scss">
 body {
     height: 100vh;
-    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    background: no-repeat center url("@/assets/images/background.png");
+
     #app {
         font-size: 1rem;
 
@@ -126,7 +127,8 @@ body {
             padding: 3rem 1.8rem;
             background-color: #1e293b;
             border-radius: 0.6rem;
-            box-shadow: 1.2rem 2rem 3rem #0002;
+            // box-shadow: 1.2rem 2rem 3rem #0002;
+            box-shadow: 0 0 2rem #ffffff75;
 
             .search {
                 display: grid;
