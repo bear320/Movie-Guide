@@ -1,5 +1,10 @@
 # Movie-Guide
 
+## Description
+* 使用 vue-cli 開發 (Vue 3)
+* Tags: ```Hosting (Firebase)```
+* [網站連結](https://movie-guide-db57a.web.app/)
+
 ## Project setup
 ```
 npm install
